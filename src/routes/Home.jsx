@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import useCountries from '../hooks/useCountries';
 import CountryCard from '../components/CountryCard';
-import { SearchIcon } from '../components/Icons';
 import Select from '../components/Select';
 import { Link } from 'react-router-dom';
 import Search from '../components/Search';
