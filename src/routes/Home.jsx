@@ -44,7 +44,10 @@ export default function Home() {
           : null}
         {data?.map((country) => {
           return (
-            <Link to={country?.alpha2Code} key={country?.alpha2Code}>
+            <Link
+              to={country?.alpha3Code?.toLowerCase()}
+              key={country?.alpha3Code}
+            >
               <CountryCard
                 flagUrl={country?.flag}
                 name={country?.name}

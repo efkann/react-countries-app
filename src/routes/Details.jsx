@@ -101,8 +101,8 @@ export default function Details() {
             {hasNoBorders ? <span className="font-light">None</span> : null}
             {bordersData?.map((border) => (
               <Link
-                key={border?.alpha2Code}
-                to={`/${border?.alpha2Code}`}
+                key={border?.alpha3Code}
+                to={`/${border?.alpha3Code?.toLowerCase()}`}
                 className="px-6 py-1 shadow-btn dark:bg-darkblue-1 rounded-sm text-sm font-light"
               >
                 {border?.name}
