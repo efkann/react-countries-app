@@ -4,7 +4,7 @@
 
 ## Welcome! 👋
 
-This is a challenge chosen from Frontend Mentor.
+This is a challenge chosen from [Frontend Mentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca).
 
 The challenge is completed by following the style-guide.md and the screenshots shared in the design folder.
 
