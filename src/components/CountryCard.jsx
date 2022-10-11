@@ -47,6 +47,7 @@ export default function CountryCard({
           height={500}
           alt={`${name} flag`}
           className="rounded-t-lg object-cover aspect-8/5 bg-slate-100 dark:bg-slate-600"
+          loading="lazy"
         ></img>
         <div className="px-8 pt-4 pb-12 flex flex-col">
           <header>
